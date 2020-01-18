@@ -1,6 +1,6 @@
 Name:		perl-Config-Tiny
 Version:	2.14
-Release:	6.1%{?dist}
+Release:	7%{?dist}
 Summary:	Perl module for reading and writing .ini style configuration files
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -54,6 +54,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Config::Tiny.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.14-7
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 2.14-6.1
 - Rebuild for perl 5.16
 
